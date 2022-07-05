@@ -1,0 +1,405 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\bgokkaya\\Desktop\\OrderManagement\\Presentation\\OrderManagement.API\\OrderManagement.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\bgokkaya\\Desktop\\OrderManagement\\Core\\OrderManagement.Application\\OrderManagement.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\bgokkaya\\Desktop\\OrderManagement\\Core\\OrderManagement.Application\\OrderManagement.Application.csproj",
+        "projectName": "OrderManagement.Application",
+        "projectPath": "C:\\Users\\bgokkaya\\Desktop\\OrderManagement\\Core\\OrderManagement.Application\\OrderManagement.Application.csproj",
+        "packagesPath": "C:\\Users\\bgokkaya\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bgokkaya\\Desktop\\OrderManagement\\Core\\OrderManagement.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bgokkaya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.tekzen.com.tr/nuget": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\bgokkaya\\Desktop\\OrderManagement\\Core\\OrderManagement.Domain\\OrderManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\bgokkaya\\Desktop\\OrderManagement\\Core\\OrderManagement.Domain\\OrderManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.0.2, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "NEST": {
+              "target": "Package",
+              "version": "[7.17.2, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\bgokkaya\\Desktop\\OrderManagement\\Core\\OrderManagement.Domain\\OrderManagement.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\bgokkaya\\Desktop\\OrderManagement\\Core\\OrderManagement.Domain\\OrderManagement.Domain.csproj",
+        "projectName": "OrderManagement.Domain",
+        "projectPath": "C:\\Users\\bgokkaya\\Desktop\\OrderManagement\\Core\\OrderManagement.Domain\\OrderManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\bgokkaya\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bgokkaya\\Desktop\\OrderManagement\\Core\\OrderManagement.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bgokkaya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.tekzen.com.tr/nuget": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\bgokkaya\\Desktop\\OrderManagement\\Infrastructure\\OrderManagement.Infrastructure\\OrderManagement.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\bgokkaya\\Desktop\\OrderManagement\\Infrastructure\\OrderManagement.Infrastructure\\OrderManagement.Infrastructure.csproj",
+        "projectName": "OrderManagement.Infrastructure",
+        "projectPath": "C:\\Users\\bgokkaya\\Desktop\\OrderManagement\\Infrastructure\\OrderManagement.Infrastructure\\OrderManagement.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\bgokkaya\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bgokkaya\\Desktop\\OrderManagement\\Infrastructure\\OrderManagement.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bgokkaya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.tekzen.com.tr/nuget": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\bgokkaya\\Desktop\\OrderManagement\\Core\\OrderManagement.Application\\OrderManagement.Application.csproj": {
+                "projectPath": "C:\\Users\\bgokkaya\\Desktop\\OrderManagement\\Core\\OrderManagement.Application\\OrderManagement.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "NEST": {
+              "target": "Package",
+              "version": "[7.17.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\bgokkaya\\Desktop\\OrderManagement\\Infrastructure\\OrderManagement.Persistence\\OrderManagement.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\bgokkaya\\Desktop\\OrderManagement\\Infrastructure\\OrderManagement.Persistence\\OrderManagement.Persistence.csproj",
+        "projectName": "OrderManagement.Persistence",
+        "projectPath": "C:\\Users\\bgokkaya\\Desktop\\OrderManagement\\Infrastructure\\OrderManagement.Persistence\\OrderManagement.Persistence.csproj",
+        "packagesPath": "C:\\Users\\bgokkaya\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bgokkaya\\Desktop\\OrderManagement\\Infrastructure\\OrderManagement.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bgokkaya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.tekzen.com.tr/nuget": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\bgokkaya\\Desktop\\OrderManagement\\Core\\OrderManagement.Application\\OrderManagement.Application.csproj": {
+                "projectPath": "C:\\Users\\bgokkaya\\Desktop\\OrderManagement\\Core\\OrderManagement.Application\\OrderManagement.Application.csproj"
+              },
+              "C:\\Users\\bgokkaya\\Desktop\\OrderManagement\\Core\\OrderManagement.Domain\\OrderManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\bgokkaya\\Desktop\\OrderManagement\\Core\\OrderManagement.Domain\\OrderManagement.Domain.csproj"
+              },
+              "C:\\Users\\bgokkaya\\Desktop\\OrderManagement\\Infrastructure\\OrderManagement.Infrastructure\\OrderManagement.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\bgokkaya\\Desktop\\OrderManagement\\Infrastructure\\OrderManagement.Infrastructure\\OrderManagement.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "NEST": {
+              "target": "Package",
+              "version": "[7.17.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\bgokkaya\\Desktop\\OrderManagement\\Presentation\\OrderManagement.API\\OrderManagement.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\bgokkaya\\Desktop\\OrderManagement\\Presentation\\OrderManagement.API\\OrderManagement.API.csproj",
+        "projectName": "OrderManagement.API",
+        "projectPath": "C:\\Users\\bgokkaya\\Desktop\\OrderManagement\\Presentation\\OrderManagement.API\\OrderManagement.API.csproj",
+        "packagesPath": "C:\\Users\\bgokkaya\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bgokkaya\\Desktop\\OrderManagement\\Presentation\\OrderManagement.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bgokkaya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.tekzen.com.tr/nuget": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\bgokkaya\\Desktop\\OrderManagement\\Core\\OrderManagement.Application\\OrderManagement.Application.csproj": {
+                "projectPath": "C:\\Users\\bgokkaya\\Desktop\\OrderManagement\\Core\\OrderManagement.Application\\OrderManagement.Application.csproj"
+              },
+              "C:\\Users\\bgokkaya\\Desktop\\OrderManagement\\Infrastructure\\OrderManagement.Infrastructure\\OrderManagement.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\bgokkaya\\Desktop\\OrderManagement\\Infrastructure\\OrderManagement.Infrastructure\\OrderManagement.Infrastructure.csproj"
+              },
+              "C:\\Users\\bgokkaya\\Desktop\\OrderManagement\\Infrastructure\\OrderManagement.Persistence\\OrderManagement.Persistence.csproj": {
+                "projectPath": "C:\\Users\\bgokkaya\\Desktop\\OrderManagement\\Infrastructure\\OrderManagement.Persistence\\OrderManagement.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
