@@ -14,5 +14,6 @@ namespace OrderManagement.Persistence.Contexts
         public DbSet<Product> Products { get; set; }
         public DbSet<OrderProduct> OrderProducts { get; set; }
         public DbSet<ApiUser> ApiUsers { get; set; }
+        public DbSet<Log> Logs { get; set; }
     }
 }

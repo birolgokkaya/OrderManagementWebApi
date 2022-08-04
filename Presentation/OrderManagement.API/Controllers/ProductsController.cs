@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using OrderManagement.Application.DTO.Products;
 using OrderManagement.Application.Services;
+using Serilog;
 
 namespace OrderManagement.API.Controllers
 {

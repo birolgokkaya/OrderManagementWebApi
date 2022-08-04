@@ -72,3 +72,5 @@ C:\Users\bgokkaya\Desktop\OrderManagement\Infrastructure\OrderManagement.Persist
 C:\Users\bgokkaya\Desktop\OrderManagement\Infrastructure\OrderManagement.Persistence\obj\Debug\net6.0\refint\OrderManagement.Persistence.dll
 C:\Users\bgokkaya\Desktop\OrderManagement\Infrastructure\OrderManagement.Persistence\obj\Debug\net6.0\OrderManagement.Persistence.pdb
 C:\Users\bgokkaya\Desktop\OrderManagement\Infrastructure\OrderManagement.Persistence\obj\Debug\net6.0\ref\OrderManagement.Persistence.dll
+C:\Users\bgokkaya\Desktop\OrderManagement\Infrastructure\OrderManagement.Persistence\bin\Debug\net6.0\OrderManagement.Persistence.runtimeconfig.json
+C:\Users\bgokkaya\Desktop\OrderManagement\Infrastructure\OrderManagement.Persistence\obj\Debug\net6.0\OrderManagement.Persistence.genruntimeconfig.cache
